@@ -10,6 +10,7 @@ int solution(int table[][5], int table_len) {
 	for (int i = 1; i < table_len; i++) {
 		sum = 0;
 		for (int k = 0; k < 5; k++) {
+			// table[0][k] -> ¼±»ý´Ô
 			if (table[0][k] == table[i][k]) {
 				sum++;
 			}
