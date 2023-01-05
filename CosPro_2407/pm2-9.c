@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// n부터 m까지의 합
+
 int func_a(int k) {
 	int sum = 0;
 	for (int i = 0; i <= k; ++i)
